@@ -1,0 +1,5 @@
+/* Keep the current-focus callout clear and understated. */
+.hero::before,
+.hero::after {
+  display: none;
+}
