@@ -1,0 +1,14 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.next/
+.vinext/
+.wrangler/
+
+# Local configuration and operating-system files
+.env*
+.DS_Store
+
+# Build and test artifacts
+coverage/
+*.tsbuildinfo
