@@ -1,4 +1,4 @@
-/* Keep the current-focus callout clear and understated. */
+/* Remove unused hero background decoration. */
 .hero::before,
 .hero::after {
   display: none;
@@ -8,4 +8,9 @@
 .hero {
   min-height: auto;
   grid-template-columns: 1fr;
+  padding-bottom: 32px;
+}
+
+.hero h1 {
+  margin-bottom: 0;
 }
