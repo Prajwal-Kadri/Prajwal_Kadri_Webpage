@@ -6,9 +6,10 @@
 
 /* Keep the hero compact after removing its supporting copy and actions. */
 .hero {
-  min-height: auto;
+  min-height: 0;
   grid-template-columns: 1fr;
-  padding-bottom: 32px;
+  padding-top: 48px;
+  padding-bottom: 24px;
 }
 
 .hero h1 {
