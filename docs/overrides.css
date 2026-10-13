@@ -3,3 +3,9 @@
 .hero::after {
   display: none;
 }
+
+/* Keep the hero compact after removing its supporting copy and actions. */
+.hero {
+  min-height: auto;
+  grid-template-columns: 1fr;
+}
